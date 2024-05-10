@@ -1,0 +1,12 @@
+def main():
+    # Asking the user for a number
+        number = float(input("Type a number to see its square: "))
+
+# Calculating the square of the number
+        square = number * number
+
+# Printing the result
+        print(f"{number} squared is {square}.")
+
+if __name__ == '__main__':
+    main()
